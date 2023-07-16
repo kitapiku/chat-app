@@ -54,13 +54,33 @@
   width: 100%;
   background-color: #ffffff;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+.mc-top-roomname{
+  font-size: 24px;
+  color: #333;
+}
+.mc-top-roomdelete a{
+  color: darkred;
+  padding: 20px;
+  border: 1px solid darkred;
+  text-decoration: none;
+}
+
 .mc-middle{
   height: calc(100% - 190px);
   width: 100%;
   background-color: #FAFAFA;
   padding: 46px 40px 0 40px;
 }
+.message{}
+.message-top{}
+.message-top-name{}
+.message-top-time{}
+.message-text{}
+
 .mc-bottom{
   height: 90px;
   width: 100%;
