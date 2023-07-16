@@ -12,11 +12,36 @@
   width: 100%;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+.sb-top-username a{
+  color: #FAFAFA;
+  font-size: 16px;
+  line-height: 100px;
+  text-decoration: none;
+}
+.sb-top-roomcreate a{
+  color: deepskyblue;
+  font-size: 10px;
+  padding: 14px;
+  border: 1px solid lightblue;
+  text-decoration: none;
+}
+
 .sb-bottom{
   height: calc(100% - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll;
+}
+.sb-bottom-room{
+  padding: 20px 0 40px;
+}
+.sb-bottom-roomname a{
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .main-chat{
