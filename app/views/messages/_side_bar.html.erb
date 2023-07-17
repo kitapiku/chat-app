@@ -1,7 +1,7 @@
 <div class="side-bar">
   <div class="sb-top">
     <div class="sb-top-username">
-      <a href="#">Tom</a>
+      <%= link_to current_user.name, "users/#{current_user.id}/edit" %>
     </div>
     <div class="sb-top-roomcreate">
       <a href="#">チャットを作成する</a>
