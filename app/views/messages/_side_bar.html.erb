@@ -4,14 +4,16 @@
       <%= link_to current_user.name, "users/#{current_user.id}/edit" %>
     </div>
     <div class="sb-top-roomcreate">
-      <a href="#">チャットを作成する</a>
+      <a href="/rooms/new">チャットを作成する</a>
     </div>
   </div>
   <div class="sb-bottom">
-    <div class="sb-bottom-room">
-      <div class="sb-bottom-roomname">
-        <a href="#">techroom1</a>
+    <% current_user.rooms.each do |room| %>
+      <div class="sb-bottom-room">
+        <div class="sb-bottom-roomname">
+          <a href="#"><%= room.name %></a>
+        </div>
       </div>
-    </div>
+    <% end %>
   </div>
 </div>
