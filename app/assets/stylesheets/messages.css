@@ -74,16 +74,70 @@
   width: 100%;
   background-color: #FAFAFA;
   padding: 46px 40px 0 40px;
+  overflow: scroll;
 }
-.message{}
-.message-top{}
-.message-top-name{}
-.message-top-time{}
-.message-text{}
+.message{
+  padding: 10px 0 40px;
+}
+.message-top{
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+}
+.message-top-name{
+  color: #434A54;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.message-top-time{
+  color: #999;
+  font-size: 12px;
+}
+.message-text{
+  color: #434A54;
+  font-size: 14px;
+}
 
 .mc-bottom{
   height: 90px;
   width: 100%;
   background-color: #DDDDDD;
   padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form{
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+}
+.message-form{
+  height: 50px;
+  width: 100%;
+  color: #DDDDDD;
+  padding-left: 10px;
+  border: none;
+}
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+.submit-btn{
+  height: 50px;
+  background-color: #38AEF0;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 0 20px;
+  margin-left: 15px;
+  text-align: center;
+  border: none;
 }
