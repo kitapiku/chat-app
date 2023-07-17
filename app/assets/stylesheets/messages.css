@@ -1,0 +1,143 @@
+.wrapper{
+  display: flex;
+}
+
+.side-bar{
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+}
+.sb-top{
+  height: 100px;
+  width: 100%;
+  background-color: #253141;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sb-top-username a{
+  color: #FAFAFA;
+  font-size: 16px;
+  line-height: 100px;
+  text-decoration: none;
+}
+.sb-top-roomcreate a{
+  color: deepskyblue;
+  font-size: 10px;
+  padding: 14px;
+  border: 1px solid lightblue;
+  text-decoration: none;
+}
+
+.sb-bottom{
+  height: calc(100% - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+  overflow: scroll;
+}
+.sb-bottom-room{
+  padding: 20px 0 40px;
+}
+.sb-bottom-roomname a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-chat{
+  height: 100vh;
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+}
+.mc-top{
+  height: 100px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mc-top-roomname{
+  font-size: 24px;
+  color: #333;
+}
+.mc-top-roomdelete a{
+  color: darkred;
+  padding: 20px;
+  border: 1px solid darkred;
+  text-decoration: none;
+}
+
+.mc-middle{
+  height: calc(100% - 190px);
+  width: 100%;
+  background-color: #FAFAFA;
+  padding: 46px 40px 0 40px;
+  overflow: scroll;
+}
+.message{
+  padding: 10px 0 40px;
+}
+.message-top{
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+}
+.message-top-name{
+  color: #434A54;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.message-top-time{
+  color: #999;
+  font-size: 12px;
+}
+.message-text{
+  color: #434A54;
+  font-size: 14px;
+}
+
+.mc-bottom{
+  height: 90px;
+  width: 100%;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form{
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+}
+.message-form{
+  height: 50px;
+  width: 100%;
+  color: #DDDDDD;
+  padding-left: 10px;
+  border: none;
+}
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+.submit-btn{
+  height: 50px;
+  background-color: #38AEF0;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 0 20px;
+  margin-left: 15px;
+  text-align: center;
+  border: none;
+}
