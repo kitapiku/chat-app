@@ -9,14 +9,9 @@
   </div>
 
   <div class="mc-middle">
-    <div class="message">
-      <div class="message-top">
-        <div class="message-top-name">Tom</div>
-        <div class="message-top-time">2020/7/16/3:49:00</div>
-      </div>
-      <div class="message-text">おはよう</div>
-    </div>
+    <%= render partial: 'message', collection: @messages %>
   </div>
+
   <div class="mc-bottom">
     <%= form_with model: [@room, @message], class: 'form', local: true do |f| %>
       <div class="form-input">
